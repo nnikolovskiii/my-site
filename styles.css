@@ -1,0 +1,591 @@
+#logo{
+    display: inline;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+}
+
+#nav a{
+    margin-right: 10px;
+}
+#nav img{
+    margin-right: 5px;
+}
+#top_bar{
+    height: 100px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a{
+    display: inline-block;
+    width: 120px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+    background: coral;
+    border-radius: 7px;
+}
+
+#nav a:hover{
+    opacity: 0.4;
+}
+
+p, a, h1, h2, li{
+    font-family: Verdana, sans-serif;
+}
+
+#mainz1{
+    height: 700px;
+}
+
+#mainz2{
+    height: 350px;
+    background: coral;
+    margin: auto;
+}
+
+#nikola{
+    margin-top: 50px;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.line{
+    height: 4px;
+    background: black;
+}
+
+#image{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 35%;
+}
+
+#image p{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+#image p:nth-child(3){
+    color: coral;
+    font-weight: bold;
+}
+
+#image p:nth-child(4){
+    color: coral;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#image p#name{
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+#image a{
+    color: coral;
+}
+
+#biography {
+    float: right;
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+}
+
+#biography > div:nth-child(1) p{
+    font-size: 65px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#biography > div:nth-child(2){
+    margin-top: -25px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+#biography > div:nth-child(3){
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.lol{
+    font-size: 30px;
+    color: coral;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+#biography > div:nth-child(4){
+    margin-top: -25px;
+    float: right;
+    width: 300px;
+    height: 380px;
+    box-sizing: border-box;
+    margin-right: 350px;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skills div p{
+    text-align: center;
+}
+
+#skills div:nth-of-type(2) p{
+    margin-top: -8px;
+}
+
+#skills_title{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 90px;
+}
+
+.div p{
+    margin: 0;
+    padding-right: 20px;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainz3{
+    height: 600px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#footer_div{
+    height: 61px;
+    background: whitesmoke;
+}
+
+#footer{
+    width: 375px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    margin-top: -77px;
+}
+
+#footer a{
+    padding-right: 30px;
+}
+
+
+#copyright{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#interests, #hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: -5%;
+}
+
+#interests > div, #hobbies > div{
+    padding-left: 30px;
+    width: 120px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#interests p, #hobbies p{
+    text-align: center;
+}
+
+#mainz4{
+    height: 600px;
+    background: coral;
+    position: relative;
+    padding: 80px 0;
+}
+
+#mainz4 > p:first-of-type, #mainz5 > p:first-of-type{
+    display: inline-block;
+    margin: 18px;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+#mainz5 > p:first-of-type{
+    margin-bottom: 80px;
+}
+
+.a{
+    background: whitesmoke;
+}
+
+.b{
+    background: coral;
+}
+
+.d{
+    color: coral;
+}
+
+#footer a:hover{
+    opacity: 0.4;
+}
+#color_dark_btn, #color_light_btn{
+    background: coral;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+
+#color_dark_btn:hover, #color_light_btn:hover{
+    opacity: 0.4;
+
+}
+
+#education{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline p{
+    margin-bottom: 4px;
+}
+
+#education{
+}
+
+
+
+.timeline div{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 0 10px;
+}
+
+.timeline div img:hover{
+    opacity: 0.4;
+}
+
+#facility{
+    width: 60%;
+    margin: 20px auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#a2, #a1, #z2, #z1, #aa2, #aa4, #aa5{
+    display: none;
+}
+
+#a1, #a2, #a3{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.logos{
+    height: 300px;
+    width: 500px;
+}
+
+#background{
+    background: linear-gradient(rgba(0,0,0,0) , rgba(0,0,0,0) 75%, black 75%, black 85%, rgba(0,0,0,0) 85%, rgba(0,0,0,0));
+}
+
+#facility a:hover{
+    opacity: 0.5;
+}
+
+.languages{
+    display: flex;
+    justify-content: center;
+}
+
+#mainz5 > div:first-of-type > div{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#mainz5 p{
+    text-align: center;
+}
+
+.woi{
+    display: flex;
+    margin: 0;
+    height: 143px;
+}
+
+.woi > div{
+   margin: 0 10px;
+}
+.woi > div:first-of-type{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.woi1{
+    display: flex;
+}
+
+.woi1 > p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.woi1 > p:last-of-type{
+    margin-left: 5px;
+    font-weight: bold;
+}
+#mainz5{
+    height: 560px;
+    padding: 50px 0;
+}
+
+.lol1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+#mainz5 > div:last-of-type{
+    margin-top: 50px;
+}
+
+.woi{
+    border-color: coral;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 8px;
+}
+
+.verticale{
+    display: flex;
+    align-items: center;
+}
+
+.verticale >img:hover{
+    opacity: 0.4;
+}
+
+.woi3{
+    border-bottom: dashed 3px coral;
+}
+
+.i, .verticale_w{
+    display: none;
+}
+
+#mainz6{
+    display: flex;
+    justify-content: center;
+    background: coral;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+#mainz6 img:hover{
+    opacity: 0.4;
+}
+
+#mainz7{
+    height: 683px;
+    background: whitesmoke;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 555px;
+}
+
+#contact>div{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#contact > div >div{
+    display: flex;
+    align-items: center;
+    background: coral;
+    height: 50px;
+    padding: 6px;
+    border-radius: 8px;
+    width: 450px;margin-left: 20px;
+}
+
+#contact > div >div > a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#contact a:hover{
+    opacity: 0.4;
+}
+
+#contact img{
+    background: coral;
+    padding: 6px;
+    border-radius: 8px;
+    margin-right:10px;
+}
+
+#mainz7 > p{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+    border-bottom: coral solid 4px;
+    padding-bottom: 10px;
+    width: 50%;
+
+}
+
+.lolzi{
+    display: none;
+}
+#mainz8{
+    margin: 60px 0;
+}
+
+#mainz8 >p:first-of-type{
+    font-size: 28px;
+    margin-left: 80px;
+}
+
+#mainz8 > div:first-of-type{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mainz8 > div:first-of-type > p{
+    font-size: 28px;
+    width: 19%;
+}
+#mainz8 > div:first-of-type > p >a:hover{
+    opacity: 0.5;
+}
+
+#mainz9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 80px 0;
+}
+
+#mainz9 p{
+    font-size: 40px;
+}
+
+#mainz10{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+#mainz10 p{
+    font-size: 32px;
+}
+#mainz10 ul li{
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+#mainz6{
+    margin-bottom: 80px;
+}
+
+#mainz3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainz3 > a >div{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#mainz3 > a div p{
+    font-size: 32px;
+    padding: 50px;
+}
+
+#mainz3 > a div img{
+    padding-left: 40px;
+}
+
+#mainz3 > a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainz3 > a :hover{
+    opacity: 0.5;
+}
+
